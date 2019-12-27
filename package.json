@@ -12,6 +12,6 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "gh-pages": "^2.1.1",
-  }
+  },
   "homepage": "https://hackthings.github.io/useswr-sample",
 }
