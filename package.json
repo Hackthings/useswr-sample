@@ -1,12 +1,17 @@
 {
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+     "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
   },
   "dependencies": {
     "@zeit/swr": "^0.0.2",
     "next": "^9.1.1",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "gh-pages"
   }
   "homepage": "https://hackthings.github.io/useswr-sample",
 }
